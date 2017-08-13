@@ -76,4 +76,24 @@ footer.page-footer {
   background-color: #5656D8;
 }
 
+@media screen and (min-width: 740px){
+  #saiba-mais-button{
+    margin-top: 1.2em;
+  }
+}
 
+
+
+@media (max-width: 420px)
+{
+  #frase-principal {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 340px)
+{
+  #frase-principal{
+    margin-bottom: 0em;
+  }
+}
