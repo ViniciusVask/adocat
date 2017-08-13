@@ -63,6 +63,13 @@ footer.page-footer {
   height: 56px;
 }
 
+@media screen and (max-width: 599px){
+  .logo {
+    height: 49px;
+    padding: 2px;
+  }  
+}
+
 .vh80 {
   height: 80vh;
 }
@@ -96,4 +103,8 @@ footer.page-footer {
   #frase-principal{
     margin-bottom: 0em;
   }
+}
+
+#logo-container {
+  padding: 2px;
 }
